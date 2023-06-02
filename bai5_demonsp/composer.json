@@ -1,0 +1,16 @@
+{
+    "name": "aaa/bbb",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./"
+        }
+    },
+    
+    "authors": [
+        {
+            "name": "dungtqph29145",
+            "email": "dungtqph29145@fpt.edu.vn"
+        }
+    ],
+    "require": {}
+}

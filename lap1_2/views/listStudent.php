@@ -12,7 +12,7 @@
 <body>
     <div class="container mt-3">
         <a href="index.php?url=add" class="btn btn-success mb-3">Add</a>
-        <table class="table">
+        <table class="table table-bordered border-primary">
             <thead>
                 <th>Id</th>
                 <th>Name</th>

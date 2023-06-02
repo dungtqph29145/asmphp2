@@ -1,5 +1,5 @@
 <?php
-namespace models;
+namespace App\Models;
     class Product{
         public function __construct()
         {

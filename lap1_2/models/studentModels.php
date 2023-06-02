@@ -14,7 +14,7 @@
             $phone = $_POST['phone'];
             $age = $_POST['age'];
             $sql = "INSERT INTO `students`(`name`, `phone`, `age`) VALUES ('$name','$phone','$age')";
-            $db = new db();
+            $db = new DB();
             $db->getData($sql);
             $thongbao="Thêm Thành Công";
         }
@@ -22,7 +22,7 @@
     }
     function find($id){
         $sql = "SELECT * FROM students WHERE id = $id";
-        $db = new db();
+        $db = new DB();
         return $db->getData($sql,false);
     }
     function update(){
@@ -32,7 +32,7 @@
             $phone = $_POST['phone'];
             $age = $_POST['age'];
             $sql = "UPDATE students SET `name`='$name', `phone`='$phone',`age`=$age Where id = $id";
-            $db = new db();
+            $db = new DB();
             $db->getData($sql);
     }
 }

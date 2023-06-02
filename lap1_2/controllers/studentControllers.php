@@ -1,5 +1,5 @@
 <?php
-    require_once "models/studentModels.php";
+    require_once "models/StudentModels.php";
     class StudentControllers{
         function listControllers(){
             $st = new StudentModels();

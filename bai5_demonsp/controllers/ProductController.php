@@ -1,5 +1,5 @@
 <?php
-namespace controllers;
+namespace App\Controllers;
     class ProductController{
         public function __construct()
         {
