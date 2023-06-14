@@ -37,7 +37,7 @@ class BaseModel
     }
 
     //Function execute the query
-    // hàm này sẽ làm hàm chạy câu truy vấn
+    // hàm này sẽ làm hàm chạy câu truy vấn them
     public function execute($options=array()) {
         $this->sta = $this->pdo->prepare($this->sql);
         if($options) {  //If have $options then system will be tranmission parameters
